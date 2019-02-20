@@ -1,0 +1,172 @@
+.navbar {
+
+    overflow: hidden;
+
+    background-color: #333;
+
+    position: fixed; /* Set the navbar to fixed position */
+
+    top: 0; /* Position the navbar at the top of the page */
+
+    left: 0;
+
+    width: 150%; /* Full width */
+
+  }
+
+  
+
+  /* Links inside the navbar */
+
+  .navbar a {
+
+    margin:0 auto;
+
+    display: inline-block;
+
+    color: #f2f2f2;
+
+    text-align: center;
+
+    padding: 14px 10px;
+
+    margin-left: 90px;
+
+    text-decoration: none;
+
+    font-family: 'Quicksand', sans-serif;
+
+  }
+
+  
+
+  /* Change background on mouse-over */
+
+  .navbar a:hover {
+
+    background: #ddd;
+
+    color: black;
+
+  }
+
+
+
+.data{
+
+  margin-top:200px;
+
+  text-align: center;
+
+  font-family: 'Quicksand', sans-serif;
+
+}
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  .header img {
+
+    float: left;
+
+    width: 180px;
+
+    height: 180px;
+
+    margin-left: 20px;
+
+    border-radius: 50%;
+
+  }
+
+
+
+  .header h1 {
+
+    position: relative;
+
+    top: 25px;
+
+    left: 20px;
+
+    color: #f2f2f2;
+
+    font-family: 'Quicksand', sans-serif;
+
+  }
+
+
+
+  .header h3 {
+
+    position: relative;
+
+    color: white;
+
+    top: 4px;
+
+    left: 20px;
+
+    font-family: 'Quicksand', sans-serif;
+
+  }
+
+  
+
+
+
+
+
+  table {
+
+    border-collapse: collapse;
+
+    font-family: 'Quicksand', sans-serif;
+
+    width: 100%;
+
+  }
+
+  
+
+  th, td {
+
+    text-align: left;
+
+    font-family: 'Quicksand', sans-serif;
+
+    padding: 8px;
+
+  }
+
+  .box {
+    float: left;
+    width: 50%;
+    padding: 50px;
+    height: 320px;
+  }
+  
+  .clearfix::after {
+    content: "";
+    clear: both;
+    display: table;}
+    * {
+      box-sizing: border-box;
+    }
+    
+  
