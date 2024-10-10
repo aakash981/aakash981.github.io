@@ -22,9 +22,77 @@
 html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
   .hide1,.hide-all{
   display:none;}
+  
+
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f3f3f3;
+            font-family: 'Arial', sans-serif;
+            text-align: center;
+        }
+
+        .container {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .maintenance-content {
+            background-color: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+        }
+
+        h1 {
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+            color: #333;
+        }
+
+        p {
+            font-size: 1.2rem;
+            color: #555;
+            margin-bottom: 20px;
+        }
+
+        .maintenance-gif {
+            width: 300px;
+            height: auto;
+            margin-top: 20px;
+            border-radius: 10px;
+        }
+
+        @media (max-width: 768px) {
+            h1 {
+                font-size: 2rem;
+            }
+
+            p {
+                font-size: 1rem;
+            }
+
+            .maintenance-gif {
+                width: 100%;
+            }
+        }
   </style>
 
 <body class="w3-light-grey">
+
+ <div class="container">
+        <div class="maintenance-content">
+            <h1>We’ll be back soon!</h1>
+            <p>Sorry for the inconvenience, but we’re performing some maintenance. We’ll be back online shortly!</p>
+            <img src="maintenance-gif.gif" alt="Maintenance GIF" class="maintenance-gif">
+        </div>
+    </div>
+
+  
     <div class ="hide-all">
 
 <div class="hide1">CokeBrave1996@  https://aakash981.w3spaces.com/</div>
